@@ -299,7 +299,22 @@ nav a:hover{
     box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-/* PROMOS AMAAAS CONCENTIRA  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROMOS AMAAAS CONCENTIRA '''''''''''''''''''''''''''''''''''''''''''''' */
 .promo{
     padding: 80px 8%;
 }
@@ -470,7 +485,7 @@ nav a:hover{
     transform: scale(1.04);
 }
 
-/* UBICACION */
+/* UBICACION ''''''''''''''''''''''''''''''''''''''''''''''''''*/
 .ubicacion{
     padding: 80px 8%;
 }
@@ -561,7 +576,7 @@ nav a:hover{
 
 
 
-/* Títulos de secciones */
+/* Títulos de secciones''''''''''''''''''''''''''''''''''''''''''' */
 .container h6,
 .container h4 {
     font-family: "Georgia", cursive;
@@ -1039,4 +1054,90 @@ nav a:hover{
 .intro-servicios p{
     font-size:1rem;
     line-height:1.6;
+}
+
+
+
+
+/*=========================================
+      RESPONSIVE SOLO PARA CELULAR
+=========================================*/
+@media screen and (max-width:768px){
+
+    body{
+        overflow-x:hidden;
+    }
+
+    /* HEADER */
+    .header{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        padding:20px;
+    }
+
+    .logo-container{
+        flex-direction:column;
+        gap:10px;
+    }
+
+    nav{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:15px;
+        margin-top:15px;
+    }
+
+    nav a{
+        font-size:18px;
+    }
+
+    /* HERO */
+    .hero{
+        flex-direction:column;
+        justify-content:center;
+        text-align:center;
+        padding:40px 20px;
+    }
+
+    .hero-text{
+        width:100%;
+    }
+
+    .hero-text h1{
+        font-size:42px;
+        line-height:1.2;
+    }
+
+    .hero-text p{
+        font-size:18px;
+    }
+
+    .hero-img{
+        width:100%;
+        margin-top:30px;
+    }
+
+    .hero-img img{
+        width:100%;
+        max-width:320px;
+        height:auto;
+    }
+
+    /* HORARIO */
+    .horario{
+        position:static;
+        margin-top:30px;
+        width:100%;
+        display:flex;
+        justify-content:center;
+    }
+
+    .horario-box{
+        width:100%;
+        max-width:350px;
+    }
+
 }
